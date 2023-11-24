@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body {
+    background-color: #dddddd;
+}
+
+#main {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#forms {
+    width: 20vw;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 50vh;
+    border-radius: 5%;
+    box-shadow: 1px 3px 9px rgb(154, 149, 194)
+}
+
+#forms h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#forms {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+}
+
+#forms label {
+    text-align: left;
+    font-weight: 600;
+    margin-left: 5%;
+    color: #fff;
+}
+
+#forms input {
+    margin: 5%;
+    height: 4vh;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#forms>#button {
+    margin-top: 2%;
+    width: 90px;
+    margin-left: 6%;
+    background-color: #ffffff;
+    border: none;
+    padding: 2%;
+    color: #4158D0;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#sair {
+    height: 4vh;
+    width: 10vw;
+    font-family: 'Questrial', sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Questrial', sans-serif;
+}
+
+#main>#imgLogin {
+    padding: 1%;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translatey(0)
+    }
+
+    50% {
+        transform: translatey(-20px)
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #forms {
+        min-width: 250px;
+    }
+
+    #main {
+        margin-top: 15%;
+    }
+}
+
+#alinhar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usuario {
+    margin-top: 5%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f4f4;
+    min-width: 22%;
+    height: 500px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#fotoUser {
+    width: 170px;
+    height: 180px;
+    background-color: #FFCC70;
+    border-radius: 50%;
+}
+
+#nomeUser {
+    border-bottom: 1px solid #C850C0;
+    padding: 20px;
+
+}
+
+#btnSair {
+    margin: 10%;
+    font-family: 'Questrial', sans-serif;
+    background: rgb(65, 88, 208);
+    background: linear-gradient(90deg, rgba(65, 88, 208, 1) 0%, rgba(88, 111, 232, 1) 100%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#fotoUser {
+    display: flex;
+    flex-direction: column;
+}
+
+#boxFoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#alinhaBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+}
+
+input[type=file]::-webkit-file-upload-button {
+    background-image: url("../img/updateFoto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+input[type="file" i] {
+    color: transparent;
+}
+
+#alinhaBtn button{
+    border: none;
+    background: rgb(73,97,221);
+    background: linear-gradient(90deg, rgba(73,97,221,1) 11%, rgba(202,50,207,1) 71%, rgba(246,111,189,1) 100%);
+    color: #fff;
+    padding: 2%;
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15%;
+
+}
